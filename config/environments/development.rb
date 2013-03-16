@@ -34,4 +34,7 @@ Ppm::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  ENV['TWITTER_KEY'] = "FB0Lh2mGhvb82G4QFUfspA";
+  ENV['TWITTER_SECRET'] = "o8fM25ZjvKqB2erA78spckxfvgu1cdkShnJZbnUyI";
 end

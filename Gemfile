@@ -21,6 +21,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'omniauth-twitter'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -40,6 +41,7 @@ gem 'jquery-rails'
 group :test, :development do
   gem 'rspec-rails'
   gem 'rb-inotify', '~> 0.9'
+  gem 'better_errors'
 end
 
 group :test do
