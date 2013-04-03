@@ -7,6 +7,7 @@ development:
   adapter: postgresql
   encoding: unicode 
   database: ppm_development
+  host: localhost
   pool: 5
   username: neilmarion
   password: root
@@ -17,6 +18,7 @@ test:
   adapter: postgresql
   encoding: unicode
   database: ppm_test
+  host: localhost
   pool: 5
   username: neilmarion
   password: root

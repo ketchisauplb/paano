@@ -24,9 +24,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'omniauth-twitter'
 gem 'omniauth-facebook', '1.4.0'
-gem 'omniauth-identity'
 gem 'devise'
 gem 'activerecord-reputation-system', require: 'reputation_system'
 
@@ -51,6 +49,7 @@ group :test, :development do
   gem 'better_errors'
   gem 'faker'
   gem 'rack-mini-profiler'
+  gem 'binding_of_caller'
 end
 
 group :test do
