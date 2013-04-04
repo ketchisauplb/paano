@@ -44,6 +44,12 @@ describe QuestionsController do
     end
 
     describe "fail" do 
+      before(:each) do
+        sign_in :user, FactoryGirl.create(:user_facebook)
+        sign_out :user
+        #request.env["devise.mapping"] = Devise.mappings[:user]
+      end
+
       describe "while user not signed in" do
         
 
