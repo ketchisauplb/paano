@@ -4,6 +4,12 @@
 
 
 $ ->
+  $('div.comments .comment').hide().slice(0, 2).show();
+  $('.comment_form').hide()
+
+  $('.add_or_show_more_comments').on "click", ->
+    $('.comment_form').show();
+
   $(".text_field.new_comment").keyup (e) ->
     if e.which is 13    
       text_field = $(this)
