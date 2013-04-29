@@ -25,3 +25,11 @@ $ ->
       false
 
   $(".text_field.new_comment").autosize()
+
+  $('div.comments .comment').hide().slice(0, 2).show();
+  $('.comment_form').hide()
+
+  $('.add_or_show_more_comments').on "click", ->
+    $(this).closest(".control-group").find(".comment_form").toggle()
+    $(this).closest(".row-fluid").find('.comments').children().toggle()
+    false

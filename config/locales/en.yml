@@ -38,6 +38,8 @@ en:
   comments:
     comment:
       commented: "%{time_ago} ago"
+    controls:
+      add_or_show_more_comments: "add / show more comments"
     form:
       comment: "Add a comment. Press enter to post it"
   shared:
